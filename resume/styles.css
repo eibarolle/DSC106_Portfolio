@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 }
   
-li {
+section li {
     margin-bottom: 8px;
 }
   
@@ -17,4 +17,77 @@ li {
   
 .contact-info a:hover {
     text-decoration: underline;
+}
+
+body {
+    /* Set line height to 1.5 times the font size
+         and use the OS’s UI font as the website font
+       */
+    font: 100%/1.5 system-ui;
+    max-width: 120ch;
+    margin-inline: auto;
+    padding: 5ch;
+}
+
+img {
+  max-width: 50ch;
+  padding-right: 2ch;
+}
+
+ul {
+  display: contents;
+}
+
+nav li {
+  display: contents;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 0.25em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+}
+
+a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
+
+html {
+  --color-accent: oklch(65% 50% 0);
+  accent-color: var(--color-accent);
+}
+
+a:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  padding-bottom: 0.1em;
+  background-color: oklch(from var(--color-accent) 95% 5% h)
+}
+
+.current {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+  padding-bottom: 0.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1; 
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+ul, li {
+  list-style-type: none;
+  margin-top: 1em;
 }
