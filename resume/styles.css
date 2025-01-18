@@ -91,3 +91,7 @@ ul, li {
   list-style-type: none;
   margin-top: 1em;
 }
+
+.phone {
+  padding-left: 0;
+}
