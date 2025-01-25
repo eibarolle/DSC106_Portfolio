@@ -13,10 +13,10 @@ function $$(selector, context = document) {
 // currentLink?.classList.add('current');
 
 let pages = [
-        {url: 'DSC106_Portfolio/', title: 'Home' },
-        {url: 'DSC106_Portfolio/contact/', title: 'Contact' },
-        {url: 'DSC106_Portfolio/projects/', title: 'Projects' },
-        {url: 'DSC106_Portfolio/resume/', title: 'Resume' },
+        {url: '', title: 'Home' },
+        {url: 'contact/', title: 'Contact' },
+        {url: 'projects/', title: 'Projects' },
+        {url: 'resume/', title: 'Resume' },
         {url: 'https://github.com/eibarolle', title: 'GitHub' }
     ];
     
