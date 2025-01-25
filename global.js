@@ -13,10 +13,10 @@ function $$(selector, context = document) {
 // currentLink?.classList.add('current');
 
 let pages = [
-        {url: '', title: 'Home' },
-        {url: 'contact/', title: 'Contact' },
-        {url: 'projects/', title: 'Projects' },
-        {url: 'resume/', title: 'Resume' },
+        {url: 'DSC106_Portfolio/', title: 'Home' },
+        {url: 'DSC106_Portfolio/contact/', title: 'Contact' },
+        {url: 'DSC106_Portfolio/projects/', title: 'Projects' },
+        {url: 'DSC106_Portfolio/resume/', title: 'Resume' },
         {url: 'https://github.com/eibarolle', title: 'GitHub' }
     ];
     
@@ -58,20 +58,13 @@ document.body.insertAdjacentHTML(
 
 const select = document.querySelector('.color-scheme select');
 
-// Check for saved preference and apply it
 if ('colorScheme' in localStorage) {
   const savedScheme = localStorage.colorScheme;
   document.documentElement.style.setProperty('color-scheme', savedScheme);
   select.value = savedScheme;
 }
 
-// Listen for changes and update the theme
 select.addEventListener('input', function (event) {
-  const value = event.target.value;
-
-  // Set the color-scheme property
-  document.documentElement.style.setProperty('color-scheme', value);
-
-  // Save the preference in localStorage
+  document.documentElement.style.setProperty('color-scheme', event.target.value);
   localStorage.colorScheme = value;
 });
