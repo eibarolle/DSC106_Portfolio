@@ -1,0 +1,74 @@
+[
+    {
+        "title": "DSC106 Project 2",
+        "year": "2025",
+        "image": "../projects/Project2/false1.png",
+        "description": "In this project, mouse data is visualized in both accurate and deceptive ways to observe the impacts of certain deception techniques."
+    },
+    {
+        "title": "DSC106 Project 1",
+        "year": "2025",
+        "image": "../projects/Project1/final.png",
+        "description": "In this project, a visualization is constructed on climate data to observe the impacts of descriptive techniques."
+    },
+    {
+        "title": "DSC80 Final Project",
+        "year": "2024",
+        "image": "../projects/lol.png",
+        "description": "A competitive League of Legends dataset is examined on the impact of creep score/minute for winning games, and then a model is created to predict this metric based on other variables."
+    },
+    {
+        "title": "Optimal Fantasy Drafter",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This project compared the best possible fantasy draft team with a user's personal draft team, calculating the pick accuracy."
+    },
+    {
+        "title": "Stat Screwed",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This project calculates how lucky a player got with leveling their characters' random stats in the Fire Emblem game series."
+    },
+    {
+        "title": "Nulla aliquam necessitatibus amet?",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Mollitia aspernatur aliquam magnam perferendis, eveniet temporibus odio iste tempore quidem possimus dolor necessitatibus voluptate exercitationem provident accusantium ea maiores fugit natus assumenda adipisci debitis. Quibusdam neque temporibus fuga exercitationem?"
+    },
+    {
+        "title": "Ad, maxime praesentium. Tempore.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Aliquid, unde ipsa repellat saepe iusto ducimus! Magnam a atque officiis! Est magni harum quod ex iure sequi sed enim cum recusandae deserunt dolor vel, ipsa temporibus molestias minima similique."
+    },
+    {
+        "title": "Quam in similique doloremque.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Obcaecati assumenda commodi accusamus delectus optio perspiciatis tempora unde pariatur neque quia asperiores molestias alias aut deserunt fugiat voluptate eum earum, quas facere ad rerum! Excepturi alias numquam vel. Ex."
+    },
+    {
+        "title": "Ea sapiente nam numquam?",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Tempore facere est animi officia soluta eius eos, id temporibus! Impedit reiciendis voluptate maxime, possimus ullam aliquid. Officiis culpa at dolorum eaque doloremque ipsam dignissimos quis minus quia. Ullam, officia."
+    },
+    {
+        "title": "Laborum eos modi placeat!",
+        "year": "2022",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ratione a aspernatur inventore, minus excepturi doloribus voluptatibus aliquid, sapiente, eum magni maiores? Facere vero illo architecto, aspernatur maiores similique accusantium, eius alias labore recusandae nobis, quis perferendis? Omnis, sapiente."
+    },
+    {
+        "title": "Labore at ipsam numquam.",
+        "year": "2021",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Laudantium nemo quidem, placeat dicta omnis impedit earum laborum esse amet odit corporis, necessitatibus voluptatibus autem adipisci, a nihil. Officiis ullam fugiat voluptatem tempora hic, neque quis architecto voluptatum ut."
+    },
+    {
+        "title": "Error harum nostrum accusantium.",
+        "year": "2020",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Dignissimos neque obcaecati, ex eos odio nam et rerum tenetur asperiores vero, iusto commodi culpa veritatis nulla illum assumenda officiis! Nam eveniet alias iure voluptatibus, temporibus debitis cupiditate nihil sapiente."
+    }
+]
