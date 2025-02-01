@@ -2,19 +2,19 @@
     {
         "title": "DSC106 Project 2",
         "year": "2025",
-        "image": "../projects/Project2/false1.png",
+        "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/projects/Project2/false1.png",
         "description": "In this project, mouse data is visualized in both accurate and deceptive ways to observe the impacts of certain deception techniques."
     },
     {
         "title": "DSC106 Project 1",
         "year": "2025",
-        "image": "../projects/Project1/final.png",
+        "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/projects/Project1/final.png",
         "description": "In this project, a visualization is constructed on climate data to observe the impacts of descriptive techniques."
     },
     {
         "title": "DSC80 Final Project",
         "year": "2024",
-        "image": "../projects/lol.png",
+        "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/projects/lol.png",
         "description": "A competitive League of Legends dataset is examined on the impact of creep score/minute for winning games, and then a model is created to predict this metric based on other variables."
     },
     {
