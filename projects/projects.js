@@ -103,7 +103,7 @@ function renderPieChart(projectsGiven) {
 searchInput.addEventListener("input", (event) => {
     query = event.target.value;
     const filteredProjects = filterProjects(query);
-    console.log(filteredProjects)
+    loadProjects(filteredProjects);
     renderProjects(filteredProjects);
     renderPieChart(filteredProjects);
 });
