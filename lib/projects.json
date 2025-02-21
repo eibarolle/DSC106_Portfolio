@@ -1,5 +1,11 @@
 [
     {
+        "title": "Bikewatching",
+        "year": "2025",
+        "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/images/bikewatching.png",
+        "description": "Bike arrivals and departures in Boston/Cambridge are tracked on the map throughout the day. https://eibarolle.github.io/bostonbikers/"
+    },
+    {
         "title": "DSC106 Project 2",
         "year": "2025",
         "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/projects/Project2/false1.png",
@@ -15,13 +21,13 @@
         "title": "DSC80 Final Project",
         "year": "2024",
         "image": "https://raw.githubusercontent.com/eibarolle/DSC106_Portfolio/refs/heads/main/projects/lol.png",
-        "description": "A competitive League of Legends dataset is examined on the impact of creep score/minute for winning games, and then a model is created to predict this metric based on other variables."
+        "description": "A competitive League of Legends dataset is examined on the impact of creep score/minute for winning games, and then a model is created to predict this metric based on other variables. https://eibarolle.github.io/LoL-Creep-Score-Study/"
     },
     {
         "title": "Optimal Fantasy Drafter",
         "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "This project compared the best possible fantasy draft team with a user's personal draft team, calculating the pick accuracy."
+        "description": "This project compared the best possible fantasy draft team with a user's personal draft team, calculating the pick accuracy. https://eibarolle.github.io/OptimalDraft/ "
     },
     {
         "title": "Stat Screwed",
@@ -58,12 +64,6 @@
         "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Ratione a aspernatur inventore, minus excepturi doloribus voluptatibus aliquid, sapiente, eum magni maiores? Facere vero illo architecto, aspernatur maiores similique accusantium, eius alias labore recusandae nobis, quis perferendis? Omnis, sapiente."
-    },
-    {
-        "title": "Labore at ipsam numquam.",
-        "year": "2021",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Laudantium nemo quidem, placeat dicta omnis impedit earum laborum esse amet odit corporis, necessitatibus voluptatibus autem adipisci, a nihil. Officiis ullam fugiat voluptatem tempora hic, neque quis architecto voluptatum ut."
     },
     {
         "title": "Error harum nostrum accusantium.",
