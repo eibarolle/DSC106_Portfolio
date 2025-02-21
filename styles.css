@@ -101,6 +101,7 @@ article {
   grid-template-rows: subgrid;
   grid-row: span 3;
   gap: 1em;
+  word-wrap: break-word;
 }
 
 article h2 {
