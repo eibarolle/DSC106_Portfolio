@@ -1,8 +1,8 @@
 body {
-    font: 100%/1.5 system-ui;
-    max-width: 120ch;
-    margin-inline: auto;
-    padding: 5ch;
+  font: 100%/1.5 system-ui;
+  max-width: 120ch;
+  margin-inline: auto;
+  padding: 5ch;
 }
 
 img {
@@ -53,17 +53,6 @@ textarea {
 button {
   font: inherit;
 }
-
-/* form, input, textarea, button {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-label {
-  display: block;
-  margin-block: 0.1em;
-} */
 
 form {
   display: grid;
@@ -264,7 +253,7 @@ dd {
 }
 
 circle {
-  transition: transform 200ms ease;
+  transition: transform 0.5s ease;
   transform-origin: center;
   transform-box: fill-box;
 }
@@ -273,4 +262,100 @@ circle:hover {
   transform: scale(1.5);
 }
 
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+.gridlines {
+  opacity: 0.1;
+}
+
+.files > div {
+  grid-column: 1 / -1;
+  display: grid;
+}
+
+.files dt {
+  grid-column: 1;
+  font: 100%/2 system-ui;
+  border-bottom: 2px solid darkgray;
+}
+
+.line {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+dd {
+  grid-column: 2 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-left: 0;
+}
+
+#scrollytelling, #file-sizes-scrollytelling {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+  gap: 0 1.5rem;
+}
+
+#scroll-container, #file-sizes-scroll-container {
+  position: relative;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+#scroll-container {
+  height: 350px;
+}
+
+#file-sizes-scroll-container {
+  height: 500px;
+}
+
+#chart, #file-chart {
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+  transition: transform 0.3s ease;
+}
+
+#spacer, #file-sizes-spacer, #items-container, #file-sizes-items-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#spacer, #file-sizes-spacer {
+  background: none;
+  pointer-events: none;
+}
+
+.item {
+  padding: 10px;
+  height: 30px;
+  min-height: 110px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+@starting-style {
+  r: 0;
+}
 
